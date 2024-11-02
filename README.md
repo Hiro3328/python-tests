@@ -19,7 +19,7 @@
 | ------------- |:-------------:|
 | Encriptação/Descriptação      | ✅ |
 | Sem passar parâmetros      | ✅| 
-| Passando número como parâmetro     | ❌|
+| Passando algo que não seja string     | ❌|
 |Velocidade ( 61 chars)|0.4 ms|
 | Velocidade (15694 chars) | 11.5 ms |
 
