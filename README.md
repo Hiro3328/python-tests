@@ -15,16 +15,15 @@
 
 ## Testes do Código:
 
-| Testes        | Resultados    |
-| ------------- |:-------------:|
-| Encriptação/Descriptação      | ✅ |
-| Sem passar parâmetros      | ✅| 
-| Passando algo que não seja string     | ❌|
-| Caractéres que não estão na lista| ‼️ |
-|Velocidade ( 61 chars)|0.4 ms|
-| Velocidade (15694 chars) | 11.5 ms |
+| Testes                            | Resultados    |   Descrição do Evento  |
+| -------------                     |:-------:      |------------------------|
+| Encriptação/Descriptação          | ✅            | Texto decriptado igual ao texto passado para encriptar |
+| Sem passar parâmetros             | ✅            | Retorna None                                           |
+| Passando algo que não seja string | ✅            | Retorna TypeError, funcionando como esperado           |
+| Caractéres que não estão na lista | ✅            | Os caractéres inválidos permanecem iguais
+| Velocidade ( 61 chars)            | 0.4 ms        | Tempo para Encriptar e Descriptar
+| Velocidade (15694 chars)          | 11.5 ms       | Tempo para Encriptar e Descriptar
 
 > \[!NOTE]
 > Testes de velocidade referentes ao processador Ryzen 5 5600G
-
 
