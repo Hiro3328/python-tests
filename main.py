@@ -2,7 +2,7 @@ from tests.runTests import TestEncrypt
 
 testes = TestEncrypt()
 
-text = "Olá! Esse é um teste de encriptação e descriptação de textos."
+text = "Olá! Esse é um teste de encriptação e desencriptação de textos."
 input("Pressione {ENTER} para iniciar os testes")
 testes.full_test(text)
 

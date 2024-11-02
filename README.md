@@ -8,7 +8,7 @@
 > Pula o caractére um número de casas baseado na posição dele no texto e da chave de encriptação 
  
 
-### Descriptação
+### Desencriptação
 > Caminho inverso da encriptação, volta um número de casas
 
 
@@ -17,12 +17,12 @@
 
 | Testes                            | Resultados    |   Descrição do Evento  |
 | -------------                     |:-------:      |------------------------|
-| Encriptação/Descriptação          | ✅            | Texto decriptado igual ao texto passado para encriptar |
+| Encriptação/Desencriptação        | ✅            | Texto decriptado igual ao texto passado para encriptar |
 | Sem passar parâmetros             | ✅            | Retorna None                                           |
 | Passando algo que não seja string | ✅            | Retorna TypeError, funcionando como esperado           |
 | Caractéres que não estão na lista | ✅            | Os caractéres inválidos permanecem iguais
-| Velocidade ( 61 chars)            | 0.4 ms        | Tempo para Encriptar e Descriptar
-| Velocidade (15694 chars)          | 11.5 ms       | Tempo para Encriptar e Descriptar
+| Velocidade ( 61 chars)            | 0.4 ms        | Tempo para Encriptar e Decriptar
+| Velocidade (15694 chars)          | 11.5 ms       | Tempo para Encriptar e Decriptar
 
 > \[!NOTE]
 > Testes de velocidade referentes ao processador Ryzen 5 5600G
