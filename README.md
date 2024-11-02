@@ -20,7 +20,8 @@
 | Encriptação/Desencriptação        | ✅            | Texto decriptado igual ao texto passado para encriptar |
 | Sem passar parâmetros             | ✅            | Retorna None                                           |
 | Passando algo que não seja string | ✅            | Retorna TypeError, funcionando como esperado           |
-| Caractéres que não são suportados | ✅            | Os caractéres inválidos permanecem iguais
+| Caractéres que não são suportados | ✅            | Os caractéres inválidos permanecem iguais              |
+| Chaves diferentes                 | ✅            | Retorna textos diferentes, funcionando como esperado   |
 | Velocidade ( 61 chars)            |  0.4 ms       | Tempo para Encriptar e Decriptar
 | Velocidade ( 15694 chars)         |  9.2 ms       | Tempo para Encriptar e Decriptar
 | Velocidade ( 1974 chars)          |  1.3 ms       | Tempo para Encriptar e Decriptar
