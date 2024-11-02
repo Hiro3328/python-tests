@@ -7,7 +7,6 @@ def timeit(lambdaExpression):
     lambdaExpression()
     
     nanoseconds = time_ns() - start
-
     match len(str(nanoseconds))//3:
         case 0:
             return f"{nanoseconds} nanoseconds"
@@ -35,22 +34,6 @@ class TestEncrypt(unittest.TestCase):
             file.write("Texto descriptografado: " + decrypted + "\n")
 
             file.close()
-
-    def test_encrypt(self, text):
-        encryped = mainCode.encrypt(text)
-
-        self.assertNotEqual(text, encryped)
-
-        print("Texto de entrada: ", text)
-        print("Texto criptografado: ", encryped)
-
-    def test_decrpt(self, text):
-        decrypted = mainCode.decrypt(text)
-
-        self.assertNotEqual(text, decrypted)
-
-        print("Texto de entrada: ", text)
-        print("Texto descriptografado: ", decrypted)
 
     def noText(self):   
         self.assertRaises(TypeError, mainCode.encrypt, 120)

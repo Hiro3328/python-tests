@@ -1,5 +1,4 @@
 from tests.runTests import TestEncrypt
-from time import perf_counter_ns as time_ns
 
 testes = TestEncrypt()
 
