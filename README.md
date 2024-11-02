@@ -20,6 +20,7 @@
 | Encriptação/Descriptação      | ✅ |
 | Sem passar parâmetros      | ✅| 
 | Passando algo que não seja string     | ❌|
+| Caractéres que não estão na lista| ‼️ |
 |Velocidade ( 61 chars)|0.4 ms|
 | Velocidade (15694 chars) | 11.5 ms |
 
