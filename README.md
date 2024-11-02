@@ -11,3 +11,19 @@
 ### Descriptação
 > Caminho inverso da encriptação, volta um número de casas
 
+
+
+## Testes do Código:
+
+| Testes        | Resultados    |
+| ------------- |:-------------:|
+| Encriptação/Descriptação      | ✅ |
+| Sem passar parâmetros      | ✅| 
+| Passando número como parâmetro     | ❌|
+|Velocidade ( 61 chars)|0.4 ms|
+| Velocidade (15694 chars) | 11.5 ms |
+
+> \[!NOTE]
+> Testes de velocidade referentes ao processador Ryzen 5 5600G
+
+
