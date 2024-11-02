@@ -16,6 +16,9 @@ input("\nPressione {ENTER} para o próximo teste")
 testes.differentKeyTest(text)
 
 input("\nPressione {ENTER} para o próximo teste")
+testes.noParams()
+
+input("\nPressione {ENTER} para o próximo teste")
 testes.speedTest(text)
 
 

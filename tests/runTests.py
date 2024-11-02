@@ -35,6 +35,10 @@ class TestEncrypt(unittest.TestCase):
             file.write("Texto descriptografado: " + decrypted + "\n")
 
             file.close()
+    
+    def noParams(self):
+        self.assertRaises(TypeError, mainCode.encrypt)
+        print("Quando não é passado nenhum parâmetro, ele dará TypeError")
 
     def noText(self):   
         self.assertRaises(TypeError, mainCode.encrypt, 120)
