@@ -22,8 +22,8 @@
 | Passando algo que não seja string | ✅            | Retorna TypeError, funcionando como esperado           |
 | Caractéres que não são suportados | ✅            | Os caractéres inválidos permanecem iguais
 | Velocidade ( 61 chars)            |  0.4 ms       | Tempo para Encriptar e Decriptar
-| Velocidade ( 15694 chars)         | 11.5 ms       | Tempo para Encriptar e Decriptar
-| Velocidade ( 1974 chars)          |  1.4 ms       | Tempo para Encriptar e Decriptar
+| Velocidade ( 15694 chars)         |  9.2 ms       | Tempo para Encriptar e Decriptar
+| Velocidade ( 1974 chars)          |  1.3 ms       | Tempo para Encriptar e Decriptar
 
 > \[!NOTE]
 > Testes de velocidade referentes ao processador Ryzen 5 5600G
