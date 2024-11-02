@@ -21,3 +21,10 @@ with open("./tests/archInstallationProcess", "r") as fileReader:
 
     print("Tamanho do Texto: ", len(text))
     testes.speedTest(text)
+
+input("Pressione {ENTER} para o último teste")
+with open("./tests/someText_inPortuguese", "r") as fileReader:
+    text = fileReader.read()
+
+    print("Tamanho do Texto: ", len(text))
+    testes.speedTest(text)
