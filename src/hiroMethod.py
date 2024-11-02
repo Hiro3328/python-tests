@@ -2,7 +2,7 @@
 Encrypts or Decrypts a string, based on a given key, default is 3218
 
 
-Made By: Hiro3328 /#/ Current Rev: 3.3
+Made By: Hiro3328 /#/ Current Rev: 4.1
 """
 characters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ "
 
